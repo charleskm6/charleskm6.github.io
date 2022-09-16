@@ -27,23 +27,92 @@
 
 </head>
 <body>
-  <section class="hero">
-  <div class="hero-inner">
-    <div class="container">
-      <img src="images/author.jpg" alt="author thumb" class="dot">
-      <h1>Charles Babu M</h1>
-      <h3><em itemprop="jobTitle">PhD student</em> at <a href="http://www-list.cea.fr/en/">CEA List</a></h3>
-      <h3></h3>
-      <a href="about/index.html" class="button button-ghost" title="about">About</a>
-      <a href="blog/index.html" class="button button-ghost" title="blog">Blog</a>
-      <ul class="social">
+  <header class="site-header">
+  <div class="container">
+    <input type="checkbox" id="toggleNavbar">
+    <h1 class="logo"><a>Charles Babu<small></small></a></h1>
+    <label for="toggleNavbar" role="button" class="toggle-navbar-button">
+      <i class="icon icon-menu"></i>
+      <i class="icon icon-cross"></i>
+    </label>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html" title="Home">Home</a></li>
+        
+        
+          <li><a href="blog/index.html" title="Blog">Blog</a></li>
+        
+          <li><a href="links/index.html" title="Links">Links</a></li>
+        
+        <li><a href="feed.xml" target="_blank"><i class="icon icon-rss"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="main-container">
+  <div class="container">
+    <article role="article" class="page card">
+
+  <header class="post-header">
+    <h1 class="post-title">About me</h1>
+  </header>
+
+  <div class="post-content">
+    <div align="center">
+<div class="hero-inner">
+<div class="container">
+<img src="images/author3.jpg" alt="author thumb" class="dot" align="center" />
+</div>
+</div>
+</div>
+<p >I am a PhD student in the <a href="https://binsec.github.io/">Binsec</a> group at <a href="http://www-list.cea.fr/en/">CEA List</a> working under the supervision of <a href="http://sebastien.bardin.free.fr/">Sebastien Bardin</a>, Matthieu Lemerre, and <a href="https://members.loria.fr/JYMarion/">Jean-Yves Marion</a>.</p> 
+
+<p class="bottom-three">
+        I am interested in software safety and security and the application of formal methods and machine learning in the context of binary-level security analyses.</p><p>Previously, I received a master's degree in computer science in 2017 from <a href="https://www.cmi.ac.in/">Chennai Mathematical Institute</a>. Here is my
+            <a href="resume.pdf">resume</a>.</p>
+
+  </div>
+  <p style="margin-bottom:1.2cm;"></p>
+  <div class="section" >
+    <h3>Master's project</h3>
+    <div class="hbar"> </div>
+     <p>In this project, I worked on improving the precision of acceleration of loops for C programs. I implemented acceeleration techniques in the software verifier Veriabs. <a href="mreport.pdf">(Report)</a>
+</div>
+<p style="margin-bottom:1.2cm;"></p>
+<div class="section">
+    <h3>Publications</h3>
+    <div class="hbar"> </div>
+    <div id="publications">
+        <div class="paper"><div class="citation"><b>VeriAbs : VeriAbs: Verification by Abstraction and Test Generation (Tool paper)</b><br>M Afzal, A Chauhan, <a href="https://www.cse.iitb.ac.in/~supratik/">Supratik Chakraborty</a>, B Chimdyalwar, P Darke, <a href="https://www.cse.iitb.ac.in/~akg/">AshutoshGupta</a>, Shrawan Kumar, Charles Babu M, Divyesh Unadkat, and Venkatesh R.<b>  TACAS 2020</b></div
+>    </div>
+</div>
+<p style="margin-bottom:1.2cm;"></p>
+<div class="section">
+    <h3>Activities</h3>
+    <div class="hbar"> </div>
+    <div><b>Sub-reviewer:</b> ISSTA'21
+</div>
+
+
+</article>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <ul class="social">
   <li><a href="https://github.com/charleskmm" target="_blank"><i class="icon icon-github"></i></a></li>
   <li><a href="https://twitter.com/charlesbm06" target="_blank"><i class="icon icon-twitter"></i></a></li>
   <li><a href="https://linkedin.com/in/charlesm06/" target="_blank"><i class="icon icon-linkedin"></i></a></li>
 </ul>
-    </div>
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
   </div>
-</section>
+</footer>
 
 </body>
 </html>
